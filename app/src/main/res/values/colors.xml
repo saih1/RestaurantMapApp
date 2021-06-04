@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tumbleweed">#D5A18E</color>
+    <color name="bright_maroon">#B9314F</color>
+    <color name="kombu_green">#3A4F41</color>
+    <color name="silver_pink">#DEC3BE</color>
+    <color name="dark_liver">#49424D</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

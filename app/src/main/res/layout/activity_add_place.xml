@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPlaceActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/tumbleweed"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/placeNameEditText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:hint="Place Name">
+    </EditText>
+
+    <fragment android:id="@+id/autocomplete_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+        android:layout_margin="20dp">
+    </fragment>
+
+    <Button
+        android:id="@+id/currentLocationButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Get Current Location"
+        android:layout_margin="20dp"
+        android:textColor="@color/silver_pink">
+    </Button>
+
+    <Button
+        android:id="@+id/showOnMapButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Show on map"
+        android:layout_margin="20dp"
+        android:textColor="@color/silver_pink">
+    </Button>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Save"
+        android:layout_margin="20dp"
+        android:textColor="@color/silver_pink">
+    </Button>
+
+
+</LinearLayout>
